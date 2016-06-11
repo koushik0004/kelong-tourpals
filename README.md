@@ -48,3 +48,5 @@ kelong.in
 db: holidayh_tourpals
 user: holidayh_tour
 password: Tourpals@1234
+# kelong-tourpals
+
