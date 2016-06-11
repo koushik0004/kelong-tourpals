@@ -1,0 +1,2 @@
+[26-Jan-2015 12:26:27] PHP Fatal error:  Call to undefined method UsersController::_checkSession() in /home3/makemarr/public_html/anyvdo/tourpals/app/Controller/UsersController.php on line 189
+[26-Jan-2015 12:30:57] PHP Parse error:  syntax error, unexpected $end in /home3/makemarr/public_html/anyvdo/tourpals/app/Controller/UsersController.php on line 59

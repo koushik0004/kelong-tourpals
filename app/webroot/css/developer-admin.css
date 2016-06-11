@@ -1,0 +1,204 @@
+/*Dropdown Submenu*/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/*Dropdown Submenu*/
+	
+/** content starts **/
+#content{min-height:400px;background:#fff; padding:100px 15px;float:left; width:100%}
+/** content ends **/
+
+/** admin grid starts **/
+.grid-table {
+	float:left;
+	margin:10px auto;
+	padding:0px 0px 5px 0px;
+	width:100%;
+	box-shadow: 0 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.grid-table  table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+.grid-table  tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.grid-table  table th{
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.grid-table  table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.grid-table  tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}
+.grid-table  tr:hover td{
+	background-color:#7fb0e1;
+}
+.grid-table  tr:nth-child(odd){ background-color:#aad4ff; }
+.grid-table  tr:nth-child(even)    { background-color:#ffffff; }.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}
+.grid-table  tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}
+.grid-table  tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+.grid-table  tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.grid-table  th{
+	background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+
+	background-color:#005fbf;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+	padding:5px;
+}
+.grid-table  th:hover{
+	background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+
+	background-color:#005fbf;
+}
+.grid-table  th:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.grid-table  th:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+.grid-table td{border:1px solid #fff;border-width:0px 1px 1px 0px;text-align:center;padding:5px;}
+.grid-table .action_column{width:7%;}
+.grid-table .action_column a{margin-left:5px;}
+.grid-table a{text-decoration:none;color:#000;}
+.grid-table a:hover{color:#FF9C03;}
+.grid-table .empty-row{color:#ff0000;height:30px;}
+.grid-table th a{color:#fff;}
+
+/** admin grid ends **/
+
+/*** footer css starts ***/
+#footer{background:#494b7c;color:#c1c6cc;margin-top:10px;padding:5px 10px;font-size:10px;text-align:center;}
+#footer a{color:#c1c6cc;}
+#footer a:hover{color:#FF9C03;}
+/*** footer css ends ***/
+
+/*** extra css ***/
+#content h3{padding-left:10px;}
+.message{color:#ff0000;background:#feedb4;padding:5px;margin:10px 0;border: 1px solid #03526F;}
+.error-message{color:#ff0000;background:#feedb4;padding:5px;border: 1px solid #03526F;display:inline;float:left;margin:0 10px;}
+.clear{clear:both;}
+.div-spacer{margin:8px 0px 0px 0px;}
+.add_new{float:left;text-decoration:none;color:#000;padding:2px 5px;border:1px solid #BDBDBD;font-weight:normal;}
+.add_new:hover{color:#FF9C03}
+.bulk_options{margin:0 0 0 10px;}
+.bulk_options_button{margin:0 0 0 10px; padding:0 5px;}
+.bulk_options_button:hover{color:#FF9C03;}
+#cke_content_editor{width: 708px;float: right;}
+.prev{margin-right:5px;}
+.next{margin-left:5px;}
+.filter_icon{float:right;}
+.grid-tools-wrap{float:left;width:100%;}
+/*.grid-tools-wrap span{float:left;font-weight:bold;}*/
+.grid-bulk-actions{width:200px;float:left;}
+.grid-tools{width:500px;float:right;}
+.grid-tools .grid-search-form{float:left;}
+.grid-tools .grid-search-text{padding:0 5px;margin-left:5px;}
+.grid-tools .grid-search-button{padding:0 5px;}
+.grid-tools .grid-search-button:hover{color:#FF9C03;}
+/*** extra css ends ***/
+
+.clear-fix{margin:4px 0;}
+.form-group .alert{padding:8px;}

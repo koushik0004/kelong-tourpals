@@ -1,0 +1,1 @@
+var tourpalsApp = angular.module('CommonAngularApp', []);
