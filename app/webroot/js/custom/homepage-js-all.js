@@ -36,7 +36,7 @@ var LoginClientUsers = function(self, e){
 			type: 'POST',
 			dataType: 'text',
 			cache:false,
-			data: getForm.serialize(),
+			data: getForm.serializeArray(),
 			beforeSend: function( xhr ) {
 				//xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
 			  },
@@ -60,7 +60,7 @@ var AddClientUsers = function(self, e){
 			type: 'POST',
 			dataType: 'text',
 			cache:false,
-			data: getForm.serialize(),
+			data: getForm.serializeArray(),
 			beforeSend: function( xhr ) {
 				//xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
 			  },

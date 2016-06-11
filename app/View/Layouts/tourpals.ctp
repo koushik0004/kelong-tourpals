@@ -14,7 +14,7 @@
 		echo $this->Html->css('developer');
 		echo $this->Html->script('jquery-1.11.2.min.js');
 		echo $this->Html->script('//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js');
-		echo $this->Html->script('angular-1.5.6.min.js');
+		echo $this->Html->script(array('vendor-angular/angular-1.5.6.min.js', 'vendor-angular/angular-animate-1.5.6.min', 'vendor-angular/angular-resource-1.5.6.min', 'vendor-angular/angular-sanitize-1.5.6.min', 'angular-files/app'));
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -29,7 +29,7 @@
       <div class="modal-content">
          <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" 
-               aria-hidden="true">×
+               aria-hidden="true">&times;
             </button>
             <h4 class="modal-title" id="myModalLabel">
                This Modal title

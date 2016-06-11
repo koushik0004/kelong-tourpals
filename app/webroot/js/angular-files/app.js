@@ -1,1 +1,5 @@
-var tourpalsApp = angular.module('CommonAngularApp', []);
+var tourpalsApp = angular.module('CommonAngularApp', [
+    'ngAnimate',
+    'ngResource',
+    'ngSanitize'
+]);

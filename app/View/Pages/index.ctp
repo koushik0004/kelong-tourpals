@@ -130,8 +130,8 @@
                     </div>
                 </div>
               </div>
-                           <div class="col-xs-1 right-nav text-right hidden-sm hidden-md hidden-lg">
+             <div class="col-xs-1 right-nav text-right hidden-sm hidden-md hidden-lg">
                 <a href="#"><!--<img src="images/right-arrow.png">--><?php echo $this->Html->image('right-arrow.png', array('alt'=>'right arrow')); ?></a>
               </div>
             </div>
- <?php echo $this->Html->script(array('custom/homepage-js-all', 'angular-files/app', 'angular-files/home-push'));?>       
+ <?php echo $this->Html->script(array('custom/homepage-js-all', 'angular-files/home-push'));?>       
