@@ -12,9 +12,9 @@
 		echo $this->Html->css(array('font-awesome.min', 'bootstrap-social'));
 		echo $this->Html->css('style');
 		echo $this->Html->css('developer');
-		echo $this->Html->script('//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js');
+		echo $this->Html->script('jquery-1.11.2.min.js');
 		echo $this->Html->script('//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js');
-		echo $this->Html->script('//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js');
+		echo $this->Html->script('angular-1.5.6.min.js');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
